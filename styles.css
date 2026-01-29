@@ -284,7 +284,7 @@
   .error{color:#ffb4b4}
   
   .footer{
-    padding:44px 0 72px;
+    padding:88px 0 72px;
   }
   .footer-inner{
     display:flex;
@@ -292,7 +292,7 @@
     justify-content:space-between;
     gap:16px;
     border-top:1px solid rgba(255,255,255,.08);
-    padding-top:36px;
+    padding-top:72px;
   }
   .footer-brand{font-weight:700}
   
