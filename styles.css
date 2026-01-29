@@ -107,7 +107,7 @@
   .hero{
     padding:34px 0 12px;
     display:grid;
-    grid-template-columns: 1.4fr .9fr;
+    grid-template-columns: 1fr;
     gap:18px;
     align-items:stretch;
   }
@@ -151,10 +151,12 @@
   }
   
   .hero-side{
-    display:flex;
-    flex-direction:column;
-    gap:12px;
-  }
+  display:flex;
+  flex-direction:row;
+  gap:12px;
+  margin-top:18px;
+}
+
   .stat{
     border:1px solid var(--line);
     border-radius: var(--radius);
